@@ -11,3 +11,8 @@ Illustration du principe de substitution de Liskov (LSP)
  il convient de restreindre la modification de la Direction et de la Position pour qu'elles soient toujours fixes. 
  Néanmoins, si un RebotStatique est utilisé là où,comportementalement, on s'attend à interagir avec un Rebot, des comportements incohérents peuvent subvenir : 
  la position et la direction d'un RebotStatique ne peuvent être changés, contrairement à ceux d'un Rebot.
+
+### Solution ###
+
+La solution consiste à ne pas considérer un type Rebotstatique comme substitut d'un type Rebot,
+soit et les définir comme deux types complètement indépendants ou de considérer q'un rebot peut étre un Rebotstatique , cela n'altérerai pas les propriétes de Rebotstatique.
