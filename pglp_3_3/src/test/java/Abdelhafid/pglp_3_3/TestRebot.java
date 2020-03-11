@@ -22,5 +22,15 @@ public class TestRebot {
 		assertEquals( pos_test.getX(),rebot.getPosition().getX());
 	}
 	
-	
+	@Test
+	public void TestTourne() {
+		Position pos=new Position(4,4);
+		Direction dir=Direction.EST;
+		Rebot rebot= new Rebot(pos,dir);
+		Direction dir_test=Direction.SUD;
+		rebot.tourne();
+		
+		assertEquals(dir_test,rebot.getDirection());
+	}
+
 }
