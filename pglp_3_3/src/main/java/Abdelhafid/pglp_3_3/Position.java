@@ -23,15 +23,7 @@ public class Position {
 		return this.y;
 	}
 	
-   /* fonction pour modifier X*/
+  
 	
-	protected void bougerX(int nombre) {
-		this.x=this.x+nombre;
-	}
-	/* fonction pour modifier Y*/
-	
-	protected void bougerY(int nombre) {
-		this.y=this.y+nombre;
-	}
 	
 }

@@ -26,22 +26,7 @@ public class RebotStatique {
 	
 	public void avance() {
 		
-			switch (dir) {
-			case NORD :
-				pos.y++;
-			break;
-			case SUD :
-				pos.y--;
-			break;
-			case OUEST :
-				pos.x--;
-			break;
-			case EST :
-				pos.x++;
-			break;
-			default :
-			break;
-			}
+			
 		}
 		
 		;
